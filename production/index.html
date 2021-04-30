@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="container">
+        <article class="faq">
+            <div class="faq__image" unselectable="on" >
+                <img src="/img/illustration-woman-online-mobile.svg"  unselectable="on" class="faq__image__mobile">
+                <img src="/img/illustration-woman-online-desktop.svg" unselectable="on" class="faq__image__desktop">
+            </div>
+            <img src="/img/illustration-box-desktop.svg" class="faq__box">
+            <div class="faq__title">
+                <h1>FAQ</h1>
+                <div class="faq__container"></div>
+            </div>
+        </article>
+    </main>
+    <template id="template">
+        <div class="faq__statement">
+            <div class="faq__statement__text">
+                <h4 class="text faq__statement__text__h4">title</h4>
+                <button class="faq__statement__text__b" >
+                    <img class="faq__statement__text__b__img" src="/img/icon-arrow-down.svg" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="faq__statement__res">
+            <p>res</p>
+        </div>
+    </template>
+    <script src="app.js"></script>
+</body>
+</html>
